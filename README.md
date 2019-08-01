@@ -1,3 +1,7 @@
+## Gists Viewer
+Its a small utility which searches for the gists of the specific user provided as search parameter. The gists are populated into a list, and each list item which is a gist shows the file type tags, avatar of the user who forked the gist.<br><br>
+This project is based on React and its built from scratch without getting of any third party UI libraray support.<br><br>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
