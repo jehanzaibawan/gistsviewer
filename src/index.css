@@ -1,4 +1,8 @@
+/* TODO: Download the font and add it to the resource folder */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
 body {
+  background-color: #2a2c3d;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",

@@ -1,0 +1,55 @@
+.textbox-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  * {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .label {
+    display: flex;
+    width: auto;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin: 0.3rem 0.8rem;
+    color: #7781a2;
+    font-size: 0.9rem;
+    transition: top 0.2s linear;
+  }
+
+  .label-visible {
+    top: -30px;
+  }
+
+  .textbox {
+    min-width: 25rem;
+    height: 2.886875rem;
+    padding: 0.8rem;
+    box-sizing: border-box;
+    border-top: 0 none;
+    border-bottom: 0.1rem solid #968ce3;
+    border-left: 0 none;
+    border-right: 0 none;
+    background-color: #343b50;
+    font-size: 0.9rem;
+    color: #dcdcdc;
+    outline: none;
+    transition: border-bottom 0.6s linear;
+
+    &:focus,
+    &:hover {
+      border-bottom: 0.1rem solid #53ddea;
+    }
+
+    &::placeholder {
+      font-size: 0.9rem;
+      color: #7781a2;
+    }
+
+    @media (max-width: 414px) {
+      min-width: unset;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+
+  .search-bar-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+
+    .button-wrapper {
+      align-self: flex-end;
+    }
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 31.100625rem;
+
+    @media (max-width: 414px) {
+      width: unset;
+    }
+
+    .username-empty,
+    .list-empty,
+    .search-error {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 1rem 0.8rem;
+      font-size: 0.8rem;
+      color: #ffffff;
+
+      @media (max-width: 414px) {
+        text-align: center;
+      }
+    }
+  }
+}
